@@ -31,7 +31,7 @@ body {
 .brand-section {
   display: flex;
   align-items: center;
-  gap: 0.15vw;
+  gap: 0.1vw;
 }
 
 .brand-logo {
@@ -346,7 +346,7 @@ body {
   }
 
   .brand-name {
-    font-size: 3.7vw; /* Match nav links size for mobile */
+    font-size: 3.4vw; /* Match nav links size for mobile */
   }
 
 
