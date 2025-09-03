@@ -309,6 +309,7 @@ body {
     height: auto;
     margin-right: 0;
     margin-bottom: 6vw; /* Increased margin for spacing */
+    box-shadow: 1vw 1vw 0.8vw #B19470;
   }
 
   .homeIntroBig {
