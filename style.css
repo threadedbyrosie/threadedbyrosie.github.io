@@ -341,9 +341,6 @@ body {
   .buttons a {
     font-size: 3vw;
   }
-    .brand-logo {
-    height: 8vw; /* Increased from 4.5vw for mobile */
-  }
 
   .brand-name {
     font-size: 3.4vw; /* Match nav links size for mobile */
