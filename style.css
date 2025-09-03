@@ -1,0 +1,346 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #FEFEE3;
+}
+body {
+  background-image: linear-gradient(to right top, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae, #dbe8d7, #b8d1ae);
+
+}
+/* default browser behavior */
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+} 
+
+* {
+  font-family: Raleway;
+  color: #09264a;
+}
+
+.nav-bar {
+  background-color: #344E41;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.brand-logo {
+  height: 4.5vw;
+  width: auto;
+}
+
+.brand-name {
+  font-family: Raleway;
+  font-size: 2.6vw;
+  font-weight: bolder;
+  color: #F8FAE5;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1vw;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: #F8FAE5;
+  padding: 1vw;
+}
+
+.nav-bar a:hover {
+  background-color: #F8FAE5;
+  color: #344E41;
+  text-decoration: none;
+  border-radius: 4vw;
+}
+.slhs {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 1vw;
+}
+.title {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  margin-right: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F8FAE5;
+  color: #8DA387;
+  font-size: 4.5vw;
+  font-style: bold;
+  text-align: center;
+  border: 6px solid #8DA387;
+  border-radius: 100px; 
+  box-shadow: 10px 10px 6px #B19470;
+}
+
+.graphic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 90px;
+  border: 10px solid #344E41;
+  border-radius: 75px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 70px;
+  margin-top: 30px;
+  box-shadow: 10px 10px 6px #B19470;
+  background-color: #FEFEE3;
+}
+
+@keyframes MyDiv {
+  0%   {left: 0vw; top: 0vw;}
+  100%  {left: 7.3vw; top: 0vw;}
+}
+
+.intro{
+  font-size: 1.8vw;
+  padding: 5vw;
+  text-align: center;
+  background-color: #2C6E49;
+  border-radius: 14.6vw;
+  color: #FEFEE3;
+  margin: 4.8vw;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.8vw;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4.4vw;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+}
+.title-about {
+  color: #0474BA;
+  font-size: 3vw;
+  text-decoration: underline;
+  text-align: center;
+}
+.meet {
+  color: #D68C45;
+  font-size: 3vw;
+  margin: 3.66vw;
+  text-decoration: underline;
+  margin-right: 80.5vw;
+}
+
+.name {
+  font-size: 1.8vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.73vw;
+}
+.email {
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 0.73vw;
+  margin-bottom: 3vw;
+}
+.team-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.emotionText{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.sadText{
+  color: #FEFEE3;
+  font-size:1.8vw;
+  font-family: Raleway;
+}
+
+.fineText{
+  color: #FEFEE3;
+  font-size: 1.8vw;
+  font-family: Raleway;
+}
+
+.happyText{
+  color: #FEFEE3;
+  font-size:1.8vw;
+  font-family: Raleway;
+}
+.homepic {
+  height: 25%;
+  width: 30%;
+  margin-bottom: 1.8vw;
+  margin-right: 4.4vw;
+  box-shadow: 0.73vw 0.73vw 0.4vw #B19470;
+  object-fit: cover;
+}
+.homeIntroBig{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 3.2vw;
+  color: #344E41;
+  font-weight: bold;
+}
+.homeIntroSmall{
+  margin-top: 0px;
+  font-size: 1.6vw;
+  color: #344E41;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  margin-left: 20px;
+}
+.buttons {
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0.73vw;
+  padding: 0.73vw;
+}
+
+
+.buttons a {
+  color: #F8FAE5;
+  text-decoration: none;
+  border-radius: 3.7vw;
+  font-family: Raleway;
+  font-size: 1.8vw;
+  font-weight: bolder;
+  border: 0.4vw solid #344E41;
+  background-color: #344E41;
+}
+.buttons a:hover{
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 1.8vw;
+  font-weight: bolder;
+  color: #344E41;
+  border: 0.4vw solid #344E41;
+  border-radius: 3.7vw;
+  background-color: #F8FAE5;
+}
+.button {
+  margin: 0.73vw;
+  padding: 0.73vw;
+}
+.footer-section {
+  text-align: right;
+  background-color: #F8FAE5;
+  color: #09264a;
+  padding-right: 4.4vw;
+  line-height: 1.5;
+  padding: 1.5vw;
+}
+.footer-title {
+  font-size: 1.5vw;
+  text-align: right;
+}
+.info {
+  font-size: 1vw;
+  text-align: right;
+}
+.insta {
+  font-size: 1vw;
+  text-align: right;
+}
+.copyright {
+  font-size: 1vw;
+  text-align: right;
+  color: #09264a;
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 9vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 4.5vw;
+    margin-bottom: 1.6vw;
+  }
+
+  .graphic {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    flex-direction: column; /* Changed from row to column for mobile */
+    align-items: center; /* Center items when in column */
+  }
+
+  .homepic {
+    width: 40vw;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 6vw; /* Increased margin for spacing */
+  }
+
+  .homeIntroBig {
+    font-size: 5.5vw;
+    text-align: center;
+  }
+
+  .homeIntroSmall {
+    font-size: 3.6vw;
+    text-align: center;
+  }
+
+  .nav-bar a {
+    font-size: 3.7vw;
+    padding: 0.8vw;
+  }
+
+  .footer-title {
+    font-size: 2.8vw;
+  }
+
+  .info {
+    font-size: 2.2vw;
+  }
+
+  .buttons a {
+    font-size: 3vw;
+  }
+
+  /* Prevent any element from exceeding viewport width */
+  * {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+}
