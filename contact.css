@@ -31,7 +31,7 @@ body {
 .brand-section {
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 0.1vw;
 }
 
 .brand-logo {
@@ -41,7 +41,7 @@ body {
 
 .brand-name {
   font-family: Raleway;
-  font-size: 2.6vw;
+  font-size: 2vw;
   font-weight: bolder;
   color: #F8FAE5;
   margin: 0;
