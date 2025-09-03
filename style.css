@@ -31,7 +31,7 @@ body {
 .brand-section {
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 0.15vw;
 }
 
 .brand-logo {
@@ -41,7 +41,7 @@ body {
 
 .brand-name {
   font-family: Raleway;
-  font-size: 2.6vw;
+  font-size: 2vw;
   font-weight: bolder;
   color: #F8FAE5;
   margin: 0;
@@ -298,8 +298,8 @@ body {
   .graphic {
     margin-left: 12vw;
     margin-right: 12vw;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     flex-direction: column; /* Changed from row to column for mobile */
     align-items: center; /* Center items when in column */
   }
