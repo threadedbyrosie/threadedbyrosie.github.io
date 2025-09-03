@@ -359,6 +359,9 @@ body {
   .buttons a {
     font-size: 3vw;
   }
+    .brand-name {
+    font-size: 3.4vw; /* Match nav links size for mobile */
+  }
 
   /* Prevent any element from exceeding viewport width */
   * {
